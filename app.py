@@ -1,5 +1,9 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
+import cv2
 app = Flask(__name__)
+
+# Initialize camera
+camera = cv2.VideoCapture(0)
 
 # route for home page, renders form to input name
 @app.route('/', methods=['GET'])
