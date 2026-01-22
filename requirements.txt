@@ -3,3 +3,5 @@ numpy
 streamlit
 ultralytics
 Pillow
+cv2
+flask
