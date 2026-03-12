@@ -16,5 +16,10 @@ def welcome():
     name = request.form.get('name')
     return render_template('welcome.html', name=name)
 
+# camera frame capture function
+# text overlay (bg same)
+# real time video feed 
+# other functionalities ++
+
 if __name__ == '__main__':
     app.run()
