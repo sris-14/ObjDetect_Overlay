@@ -5,7 +5,7 @@ ObjDetect_Overlay is a computer vision learning project that explores real-time 
 
 The goal is to experiment with how AI can help children and curious learners understand the world around them in a more engaging way.
 
-## How I'm Imagining It
+## How I'm Imagining It, we can call as Features
 
 The application would work by:
 1. Detecting objects in real-time through a camera
